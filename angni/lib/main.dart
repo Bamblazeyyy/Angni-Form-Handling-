@@ -58,7 +58,7 @@ class FirstPage extends StatelessWidget{
               print('Your Password is: ${_passwordController.text}');
               }, 
               style: ElevatedButton.styleFrom(
-               primary: Colors.blueGrey,),
+              backgroundColor: Colors.blueGrey,),
               child: Text("Submit", style: TextStyle(color: Colors.white, fontSize:20))
           ),
         ],
