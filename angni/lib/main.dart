@@ -19,7 +19,6 @@ class MainPage extends StatelessWidget{
 
 class FirstPage extends StatelessWidget{
   
-  final _formKey = GlobalKey<FormState>();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
 
@@ -32,7 +31,6 @@ class FirstPage extends StatelessWidget{
         leading: Icon(Icons.code)
       ),
       body: Form(
-        key: _formKey,
         child: ListView(
           padding: EdgeInsets.all(20),
           children: [
